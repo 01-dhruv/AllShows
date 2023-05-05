@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+### This is the home page which fetches all shows from API and displays their name, images and a short description.
+![image](https://user-images.githubusercontent.com/88182884/236424685-ae307c8d-04f6-4ec0-9fd6-1ba7670d7fcd.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### This is a basic Abouts Page for the website
+![image](https://user-images.githubusercontent.com/88182884/236424895-c5af2867-b48a-4da5-83af-6d23d7ffbeb7.png)
 
-## Available Scripts
+### Every Show displayed have 2 buttons, when we click read more the user is redirected to another site for more detailed information
+![image](https://user-images.githubusercontent.com/88182884/236425300-b68283e7-2836-4d23-ad1e-63bf3af18aea.png)
 
-In the project directory, you can run:
+### The Second button, that is Book Tickets, when clicked opens a form with the movie name already present and a few details that useer haas to specify in order to book tickets.
+![image](https://user-images.githubusercontent.com/88182884/236425889-44c79aa8-a5d9-4b0b-b38a-1eaaf84bb6ca.png)
+##### The Number of Tickets and Show Timings are provided as dropdown inputs and the user has to select from the available options.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## The Webiste makes use of React Router to hit different pages, We use Link Tag to avoid reload. So whenever user clicks Home or About in NavBar OR the buttons on cards of shows like Book Ticket the web pages are loaded statically and not reloaded.
