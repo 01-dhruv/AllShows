@@ -12,4 +12,4 @@
 ##### The Number of Tickets and Show Timings are provided as dropdown inputs and the user has to select from the available options.
 
 
-## The Webiste makes use of React Router to hit different pages, We use Link Tag to avoid reload. So whenever user clicks Home or About in NavBar OR the buttons on cards of shows like Book Ticket the web pages are loaded statically and not reloaded.
+## The Website makes use of React Router to hit different pages, We use Link Tag to avoid reload. So whenever user clicks Home or About in NavBar OR the buttons on cards of shows like Book Ticket the web pages are loaded statically and not reloaded.
