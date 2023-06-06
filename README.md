@@ -7,8 +7,9 @@
 ### Every Show displayed have 2 buttons, when we click read more the user is redirected to another site for more detailed information
 ![image](https://user-images.githubusercontent.com/88182884/236425300-b68283e7-2836-4d23-ad1e-63bf3af18aea.png)
 
-### The Second button, that is Book Tickets, when clicked opens a form with the movie name already present and a few details that useer haas to specify in order to book tickets.
-![image](https://user-images.githubusercontent.com/88182884/236425889-44c79aa8-a5d9-4b0b-b38a-1eaaf84bb6ca.png)
+### The Second button, that is Book Tickets, when clicked opens a form with the movie name already present and a few details that user haas to specify in order to book tickets.
+(![image](https://github.com/01-dhruv/AllShows/assets/88182884/402bcecb-4f57-49f0-9ab9-f1605a5875e9)
+)
 ##### The Number of Tickets and Show Timings are provided as dropdown inputs and the user has to select from the available options.
 
 
