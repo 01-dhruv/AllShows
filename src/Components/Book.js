@@ -3,6 +3,8 @@ import { useLocation } from 'react-router-dom';
 function Book() {
   const location = useLocation();
   const title = new URLSearchParams(location.search).get('title');
+  const runtime = new URLSearchParams(location.search).get('time');
+
 
   const showTimings = ["10:00 AM", "12:00 PM", "3:00 PM", "6:00 PM", "9:00 PM"];
   return (
@@ -19,7 +21,9 @@ function Book() {
     </div>
 
     
-
+    <div>
+  <p>Average Run Time : <span style={{ marginLeft: '50px' }}>{runtime}</span></p>
+</div>
 
 
     <div class="mb-3 row">
@@ -51,9 +55,10 @@ function Book() {
             ))}
           </select>
         </div>
-      </div>
+  </div>
+  
 
-    </div>
+</div>
 
     <button type="button" class="btn btn-primary">Submit</button>
 

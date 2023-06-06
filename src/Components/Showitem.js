@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export class Showitem extends Component {
   render() {
 
-    let {title, description, img, url} = this.props;
+    let {title, description, img, url, runtime} = this.props;
 
     return (
  
@@ -15,7 +15,7 @@ export class Showitem extends Component {
       <h5 className="card-title">{title}</h5>
       <div dangerouslySetInnerHTML={{ __html: description.length > 200 ? description.slice(0,200)+'...' : description  }} />
       <Link to={url} target='blank' className="btn btn-sm btn-primary mx-2">Read More</Link>
-      <Link to={`/book?title=${title}`} className="btn btn-sm btn-primary mx-2">Book Tickets</Link>   </div>
+      <Link to={`/book?title=${title}&time=${runtime}`} className="btn btn-sm btn-primary mx-2">Book Tickets</Link>   </div>
   </div>
 </div>
 

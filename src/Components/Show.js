@@ -43,6 +43,8 @@ export class Show extends Component {
               description={element.summary}
               img={element.image ? element.image.original : ""}
               url={element.url}
+              runtime={element.averageRuntime}
+              // schedule={element.schedule}
             />
 
           </div>
